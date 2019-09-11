@@ -39,7 +39,7 @@ AWS_REGION=eu-west-2
 
 ```
 kubectl run awscli --rm --tty -i --restart='Never' \
-  --image luigidifraia/awscli:v1.0.0 \
+  --image luigidifraia/awscli:v1.0.2 \
   --env="AWS_ACCESS_KEY_ID=AKIAIOSFODNN7INVALID" \
   --env="AWS_SECRET_ACCESS_KEY=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" \
   --env="AWS_REGION=eu-west-2" \
