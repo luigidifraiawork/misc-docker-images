@@ -14,7 +14,7 @@ docker run --rm \
   --env "AWS_ACCESS_KEY_ID=AKIAIOSFODNN7INVALID" \
   --env "AWS_SECRET_ACCESS_KEY=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" \
   --env "AWS_REGION=eu-west-2" \
-  luigidifraia/awscli:v1.0.0 \
+  luigidifraia/awscli:v1.0.2 \
   s3 ls s3://public-eo-data
 ```
 
@@ -23,7 +23,7 @@ Or:
 ```
 docker run --rm \
   --env-file=$HOME/.aws_env.list \
-  luigidifraia/awscli:v1.0.0 \
+  luigidifraia/awscli:v1.0.2 \
   s3 ls s3://public-eo-data
 ```
 
