@@ -9,4 +9,4 @@ RUN apk -uv add --no-cache groff jq less && \
 
 WORKDIR /aws
 
-CMD sh
+ENTRYPOINT ["/usr/local/bin/aws"]
