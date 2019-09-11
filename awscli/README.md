@@ -1,7 +1,7 @@
 [![docker pulls](https://img.shields.io/docker/pulls/luigidifraia/awscli.svg)](https://hub.docker.com/r/luigidifraia/awscli/ "Get your own image badge on shields.io")
 [![docker stars](https://img.shields.io/docker/stars/luigidifraia/awscli.svg)](https://hub.docker.com/r/luigidifraia/awscli/ "Get your own image badge on shields.io")
-[![size and layers](https://images.microbadger.com/badges/image/luigidifraia/awscli:v1.0.1.svg)](https://microbadger.com/images/luigidifraia/awscli:v1.0.1 "Get your own image badge on microbadger.com")
-[![docker tag](https://images.microbadger.com/badges/version/luigidifraia/awscli:v1.0.1.svg)](https://microbadger.com/images/luigidifraia/awscli:v1.0.1 "Get your own version badge on microbadger.com")
+[![size and layers](https://images.microbadger.com/badges/image/luigidifraia/awscli:v1.0.2.svg)](https://microbadger.com/images/luigidifraia/awscli:v1.0.2 "Get your own image badge on microbadger.com")
+[![docker tag](https://images.microbadger.com/badges/version/luigidifraia/awscli:v1.0.2.svg)](https://microbadger.com/images/luigidifraia/awscli:v1.0.2 "Get your own version badge on microbadger.com")
 
 # Docker image for the AWS CLI
 
