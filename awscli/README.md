@@ -17,12 +17,12 @@ Or:
 
 ```
 docker run --rm \
-  --env-file=aws_env.list \
+  --env-file=~/.aws_env.list \
   luigidifraia/awscli:v1.0.0 \
   aws s3 ls s3://public-eo-data
 ```
 
-With `aws_env.list` having the following contents:
+With `.aws_env.list` having the following contents:
 
 ```
 AWS_ACCESS_KEY_ID=AKIAIOSFODNN7INVALID
