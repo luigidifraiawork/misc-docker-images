@@ -1,4 +1,4 @@
-# Docker image for the etcdctl
+# Docker image for etcdctl
 
 ## TL;DR
 
