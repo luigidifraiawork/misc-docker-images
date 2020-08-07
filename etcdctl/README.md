@@ -17,7 +17,7 @@ Or:
 docker run --rm \
   --env-file=$HOME/.etcd_env.list \
   luigidifraia/etcdctl:v1.0.0 \
-  s3 ls s3://cs-odc-data
+  --endpoints=http://10.21.12.20:2379 member list
 ```
 
 With `$HOME/.etcd_env.list` having the following contents:
