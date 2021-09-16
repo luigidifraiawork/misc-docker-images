@@ -9,6 +9,7 @@ WORKDIR /install
 RUN pip install --prefix=/install parquet-tools
 
 FROM base
+
 COPY --from=builder /install /usr/local
 
 ENTRYPOINT ["/usr/local/bin/parquet-tools"]
