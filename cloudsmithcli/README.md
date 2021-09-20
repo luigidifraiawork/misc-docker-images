@@ -9,7 +9,7 @@ The examples below assume that you have exported your Cloudsmith API key into th
 ```
 docker run --rm \
   --env "CLOUDSMITH_API_KEY" \
-  luigidifraia/cloudsmithcli:v1.0.4 \
+  luigidifraia/cloudsmithcli:v1.0.5 \
   ls pkg YOUR-ACCOUNT/YOUR-REPO -q 'format:helm' -F json | jq .
 ```
 
@@ -18,6 +18,6 @@ docker run --rm \
 ```
 docker run --rm \
   --env "CLOUDSMITH_API_KEY" \
-  luigidifraia/cloudsmithcli:v1.0.4 \
+  luigidifraia/cloudsmithcli:v1.0.5 \
   tags add YOUR-ACCOUNT/YOUR-REPO/PACKAGE version:1.0.3
 ```
