@@ -1,7 +1,15 @@
-FROM python:alpine
+FROM python:3-alpine as base
 
 LABEL maintainer="Luigi Di Fraia"
 
-RUN pip install --no-cache-dir awscli
+FROM base as builder
+
+RUN mkdir /install
+WORKDIR /install
+RUN pip install --prefix=/install awscli
+
+FROM base
+
+COPY --from=builder /install /usr/local
 
 ENTRYPOINT ["/usr/local/bin/aws"]
