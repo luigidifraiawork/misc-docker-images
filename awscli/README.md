@@ -14,7 +14,7 @@ docker run --rm \
   --env "AWS_ACCESS_KEY_ID" \
   --env "AWS_SECRET_ACCESS_KEY" \
   --env "AWS_REGION" \
-  luigidifraia/awscli:v1.0.4 \
+  luigidifraia/awscli:v1.0.5 \
   s3 ls s3://my-bucket
 ```
 
@@ -23,7 +23,7 @@ Or:
 ```
 docker run --rm \
   --env-file=$HOME/.aws_env.list \
-  luigidifraia/awscli:v1.0.4 \
+  luigidifraia/awscli:v1.0.5 \
   s3 ls s3://my-bucket
 ```
 
@@ -40,7 +40,7 @@ AWS_REGION=eu-west-2
 ```
 docker run --rm \
   --env-file=$HOME/.aws_env.list \
-  --volume /home/luigidifraia/my-bucket-s3-explorer:/tmp/my-bucket-s3-explorer luigidifraia/awscli:v1.0.4 \
+  --volume /home/luigidifraia/my-bucket-s3-explorer:/tmp/my-bucket-s3-explorer luigidifraia/awscli:v1.0.5 \
   s3 cp /tmp/my-bucket-s3-explorer/index.html s3://my-bucket
 ```
 
@@ -50,7 +50,7 @@ docker run --rm \
 
 ```
 kubectl run awscli --rm --tty -i --restart='Never' \
-  --image luigidifraia/awscli:v1.0.4 \
+  --image luigidifraia/awscli:v1.0.5 \
   --env="AWS_ACCESS_KEY_ID" \
   --env="AWS_SECRET_ACCESS_KEY" \
   --env="AWS_REGION" \
